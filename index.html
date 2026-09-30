@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VARSHINI P| Student Portfolio</title>
+    <title>VARSHINI P | Student Portfolio</title>
 
     <style>
-        /* BASIC SETTINGS */
         * {
             margin: 0;
             padding: 0;
@@ -206,6 +205,22 @@
             color: #514575;
         }
 
+        /* REGISTER BUTTON */
+        .register-btn {
+            display: inline-block;
+            margin-top: 25px;
+            background: #7654d6;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 30px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .register-btn:hover {
+            transform: scale(1.05);
+        }
+
         /* CONTACT SECTION */
         .contact {
             text-align: center;
@@ -229,6 +244,7 @@
             background: linear-gradient(135deg, #a78bfa, #ec89c5);
             color: #211d45;
             padding: 13px 30px;
+            margin: 5px;
             border-radius: 30px;
             font-weight: bold;
             transition: 0.3s;
@@ -250,6 +266,7 @@
 
         /* MOBILE RESPONSIVENESS */
         @media (max-width: 700px) {
+
             header {
                 justify-content: center;
                 text-align: center;
@@ -295,6 +312,7 @@
 
     <!-- NAVIGATION -->
     <header>
+
         <div class="logo">✦ varsh's Portfolio</div>
 
         <nav>
@@ -304,7 +322,9 @@
             <a href="#goal">My Goal</a>
             <a href="#contact">Contact</a>
         </nav>
+
     </header>
+
 
     <!-- HERO SECTION -->
     <section class="hero" id="home">
@@ -316,7 +336,10 @@
         >
 
         <div class="hero-text">
-            <h1>Hi, I'm <span class="highlight">Varshini P</span> 👋</h1>
+
+            <h1>
+                Hi, I'm <span class="highlight">Varshini P</span> 👋
+            </h1>
 
             <h3>Computer Science Engineering Student</h3>
 
@@ -326,13 +349,16 @@
                 learning new things, exploring creative ideas, and
                 building my skills to create meaningful projects.
             </p>
+
         </div>
 
     </section>
 
-    <!-- ABOUT AND SKILLS -->
+
+    <!-- MAIN CONTENT -->
     <main class="container">
 
+        <!-- ABOUT -->
         <h2 class="section-title" id="about">
             About <span>Me</span>
         </h2>
@@ -341,6 +367,7 @@
 
             <!-- PERSONAL DETAILS -->
             <section class="card">
+
                 <h2>👩‍🎓 Personal Details</h2>
 
                 <div class="detail">
@@ -367,10 +394,13 @@
                     <strong>Email</strong>
                     <span>varshinipgowda06@gmail.com</span>
                 </div>
+
             </section>
+
 
             <!-- SKILLS -->
             <section class="card" id="skills">
+
                 <h2>💻 My Technical Skills</h2>
 
                 <p style="margin-bottom: 18px;">
@@ -378,18 +408,23 @@
                 </p>
 
                 <div class="skills">
+
                     <span class="skill">☕ Java</span>
                     <span class="skill">🐍 Python</span>
-                    <span class="skill"> C Programming</span>
+                    <span class="skill">C Programming</span>
                     <span class="skill">🌐 Web Development</span>
                     <span class="skill">🗄️ SQL</span>
+
                 </div>
+
             </section>
 
         </div>
 
+
         <!-- CAREER GOAL -->
         <section class="card goal-card" id="goal">
+
             <h2>🚀 My Career Goal</h2>
 
             <p>
@@ -402,32 +437,72 @@
                 experience, and develop innovative applications that
                 solve real-world problems.
             </p>
+
         </section>
-<a href="student register form.html">Register Now</a>
+
+
+        <!-- REGISTER BUTTON -->
+        <div style="text-align: center;">
+
+            <a
+                href="student register form.html"
+                class="register-btn"
+            >
+                📝 Register Now
+            </a>
+
+        </div>
 
     </main>
 
 
     <!-- CONTACT -->
     <section class="contact" id="contact">
+
         <h2>Let's Connect! 💌</h2>
 
         <p>
             Have a project idea or want to connect? Feel free to reach out!
         </p>
 
+        <!-- CONTACT BUTTON -->
         <a
             class="contact-btn"
             href="mailto:varshinipgowda06@gmail.com?subject=Portfolio%20Contact"
         >
             ✉ Contact Me
         </a>
+
+        <!-- VIEW RESUME -->
+        <a
+            class="contact-btn"
+            href="resume.pdf"
+            target="_blank"
+        >
+            📄 View Resume
+        </a>
+
+        <!-- DOWNLOAD RESUME -->
+        <a
+            class="contact-btn"
+            href="resume.pdf"
+            download
+        >
+            ⬇ Download Resume
+        </a>
+
     </section>
+
 
     <!-- FOOTER -->
     <footer>
+
         <p>Designed with 💜 by Varshini P</p>
-        <p>© 2026 varsh's Portfolio | All Rights Reserved</p>
+
+        <p>
+            © 2026 varsh's Portfolio | All Rights Reserved
+        </p>
+
     </footer>
 
 </body>
